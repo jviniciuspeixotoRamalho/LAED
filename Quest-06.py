@@ -17,7 +17,7 @@ while True:
     print("O número digitado deve ser um número inteiro positivo!")
 
 for i in range(len(v)-1):
-  j = i + 1
+ 
   for j in range(i+1, len(v)):
     if achou:
       break
