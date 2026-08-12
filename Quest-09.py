@@ -20,7 +20,7 @@ def contem_elemento_repetido(p):
 
 p1 = No(2, No(9, No(7, No(4, No(1)))))
 resultado1 = "Sim" if contem_elemento_repetido(p1) else "Não"
-print("Resultado para a lista da imagem:", resultado1)  
+print("Resultado para a lista:", resultado1)  
 
 
 p2 = No(2, No(9, No(7, No(2, No(1)))))
